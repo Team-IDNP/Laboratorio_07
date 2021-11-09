@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_mapAlertas">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_mapAlertas"
         android:name="com.example.laboratorio_07.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:label="@string/title_mapAlertas"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.laboratorio_07.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_addAlerta"
+        android:name="com.example.laboratorio_07.ui.addalerta.AddalertaFragment"
+        android:label="@string/title_addAlerta"
+        tools:layout="@layout/fragment_addalerta" />
 
     <fragment
         android:id="@+id/navigation_notifications"
